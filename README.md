@@ -35,16 +35,16 @@ To deploy this Prometheus Grafana stack using Docker Compose, make sure you have
 1. Clone this repository to your local machine.
 
     ```
-    git clone https://github.com/clonewriter/pga-stack-docker.git
+    git clone https://github.com/alterwriter/dockerized-grafana-monitoring.git
     ```
 
 2. Change into the repository directory and deploy the stack using Docker Compose.
     
     ```
-    cd pga-stack-docker 
+    cd dockerized-grafana-monitoring
     
     # run docker compose
-    docker-compose up -d
+    docker-compose up -d --build
     ```
  
 3. Access the Grafana web interface via `http://localhost:3000` (default port) with the default username and password (admin/admin) to start customizing your dashboards.
